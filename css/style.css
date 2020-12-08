@@ -1,0 +1,75 @@
+*
+{
+    user-select: none;
+    -webkit-tap-highlight-color:transparent;
+}
+
+*:focus
+{
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(225, 250, 255);
+}
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 64px;
+    background-color: rgb(255, 237, 134);
+    padding: 20px;
+    line-height: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: black 1px solid;
+    border-radius: 10px;
+}
+section {
+    text-align: center;
+}
+.header-img {
+    width: 20px;
+}
+.week-day {
+    display: inline-block;
+    text-align: center;
+    margin: 50px 100px;
+    width: 400px;
+    background-color:white;
+    border: rgb(226, 226, 226) 1px solid;
+    border-radius: 10px;
+}
+.week-day-header {
+    font-size: 20px;
+    text-transform: none;
+}
+table {
+    border-collapse: collapse;
+    border-bottom: black 1px solid;
+    margin-bottom: 5px;
+}
+td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: black 1px solid;
+}
+.table-head {
+    padding: 10px;
+    height: 50px;
+    border-bottom: black 1px solid;
+}
+.time-column {
+    width: 100px;
+    border-right: black 1px solid;
+    padding: 10px;
+}
+.lesson-type {
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(0, 73, 207);
+}
