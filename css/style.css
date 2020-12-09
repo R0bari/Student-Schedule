@@ -27,10 +27,13 @@ header {
     font-weight: 500;
     text-transform: uppercase;
     border-bottom: black 1px solid;
-    border-radius: 10px;
 }
 section {
     text-align: center;
+}
+.schedule-section {
+    width: 1000px;
+    margin: 0 auto;
 }
 .header-img {
     width: 20px;
@@ -38,11 +41,12 @@ section {
 .week-day {
     display: inline-block;
     text-align: center;
-    margin: 50px 100px;
+    margin: 40px;
     width: 400px;
     background-color:white;
     border: rgb(226, 226, 226) 1px solid;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .week-day-header {
     font-size: 20px;
@@ -67,6 +71,7 @@ td {
     width: 100px;
     border-right: black 1px solid;
     padding: 10px;
+    background-color: rgb(241, 241, 241);
 }
 .lesson-type {
     font-style: italic;
